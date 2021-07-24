@@ -3,3 +3,4 @@ pipelines
 flask-ngrok
 flask
 nlp
+uvicorn
