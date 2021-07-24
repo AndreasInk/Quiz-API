@@ -17,10 +17,10 @@ from flask import Flask, request, Response
 import json
 import nlp
 
-app = Flask(__name__)
+myApp = Flask(__name__)
 #run_with_ngrok(app)   #starts ngrok when the app is run
 
-@app.route("/quizify", methods=['POST'])
+@myApp.route("/quizify", methods=['POST'])
 def quizify():
   res = request.get_json()
   print (res)
@@ -41,8 +41,8 @@ def quizify():
 
 
 
-@app.route("/")
+@myApp.route("/")
 def home():
     return "<h1>Running Flask on Google Colab!</h1>"
   
-app.run()
+myApp.run()
