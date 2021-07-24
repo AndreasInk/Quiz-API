@@ -2,5 +2,6 @@ transformers
 pipelines
 flask-ngrok
 flask
+fastapi
 nlp
 uvicorn

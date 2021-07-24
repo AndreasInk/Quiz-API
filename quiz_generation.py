@@ -18,7 +18,7 @@ import json
 import nlp
 
 app = Flask(__name__)
-run_with_ngrok(app)   #starts ngrok when the app is run
+#run_with_ngrok(app)   #starts ngrok when the app is run
 
 @app.route("/quizify", methods=['POST'])
 def quizify():
