@@ -12,7 +12,6 @@
 
 #!pip install flask-ngrok
 
-from flask_ngrok import run_with_ngrok
 from flask import Flask, request, Response
 import json
 import nlp
@@ -44,5 +43,5 @@ def quizify():
 @myApp.route("/")
 def home():
     return "<h1>Running Flask on Google Colab!</h1>"
-  
-myApp.run()
+if __name__ == '__main__':
+  myApp.run()
