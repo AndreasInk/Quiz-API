@@ -6,3 +6,5 @@ fastapi
 nlp
 uvicorn
 gunicorn
+nltk.downloader punkt
+https://github.com/patil-suraj/question_generation.git
