@@ -1,4 +1,4 @@
-transformers==3.0.0
+transformers
 pipelines
 flask-ngrok
 flask
@@ -6,5 +6,3 @@ fastapi
 nlp
 uvicorn
 gunicorn
-nltk.downloader punkt
-https://github.com/patil-suraj/question_generation.git
