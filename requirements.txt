@@ -5,3 +5,4 @@ flask
 fastapi
 nlp
 uvicorn
+gunicorn
