@@ -7,3 +7,4 @@ nlp
 uvicorn
 gunicorn
 streamlit
+nltk
