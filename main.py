@@ -15,7 +15,7 @@
 from flask import Flask, request, Response
 import json
 import nlp
-
+import streamlit
 app = Flask(__name__)
 #run_with_ngrok(app)   #starts ngrok when the app is run
 

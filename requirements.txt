@@ -6,3 +6,4 @@ fastapi
 nlp
 uvicorn
 gunicorn
+streamlit
