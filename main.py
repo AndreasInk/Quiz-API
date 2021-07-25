@@ -34,7 +34,7 @@ def quizify():
 
   resp = Response(statusjson, status=200, mimetype='application/json')
 
-  st.text(resp)
+  st.text(quiz)
 
 
 
