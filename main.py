@@ -16,10 +16,10 @@ from flask import Flask, request, Response
 import json
 from pipelines import pipeline
 import streamlit as st
-
+import nltk
 #run_with_ngrok(app)   #starts ngrok when the app is run
 nlp = pipeline("question-generation")
-
+nltk.download('punkt')
 def quizify():
   
 
