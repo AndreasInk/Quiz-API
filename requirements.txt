@@ -8,3 +8,6 @@ uvicorn
 gunicorn
 streamlit
 nltk
+torch
+tqdm
+numpy
